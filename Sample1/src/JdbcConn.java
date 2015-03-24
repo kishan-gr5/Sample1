@@ -19,7 +19,7 @@ public class JdbcConn {
 			}
 			con.close();
 		}	
-		catch(ArithmeticException e)
+		catch(Exception e)
 		{
 			System.out.println(e);
 		}
